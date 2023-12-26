@@ -26,7 +26,9 @@ bulk=<how many keys to scan at each iteration, default=10000>
 ttl=<ttl for setting or testing>
 
 Either compile the project, or use the compiled jar file and run as follows:
-`java -cp ./RedisBulkOperations.jar com.redis.RedisBulkOperations <properties file path>`
+```
+java -cp ./RedisBulkOperations.jar com.redis.RedisBulkOperations <properties file path>
+```
 
 
 ### Python
